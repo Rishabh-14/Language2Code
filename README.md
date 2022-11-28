@@ -1,3 +1,3 @@
-# buildspace 
+# English-to-code
 ### Welcome 👋
-This is the starter template for the [build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer) project.
+"English to Code" is a guide to translating English phrases into code.
