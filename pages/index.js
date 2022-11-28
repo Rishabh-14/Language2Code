@@ -36,15 +36,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>Language2Code</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>English to Code</h1>
+            <h1>Language2Code</h1>
           </div>
           <div className="header-subtitle">
-            <h2>"English to Code" is a guide to translating English phrases into code.</h2>
+            <h2>"Language2Code" is a guide to translating English phrases into code.</h2>
           </div>
         </div>
         <div className="prompt-container">

@@ -21,7 +21,7 @@ body {
 
 .container {
     display: flex;
-    place-content: center flex-start;
+    place-content: center ;
     align-items: center;
     flex: 0 0 auto;
     flex-flow: column nowrap;
@@ -29,6 +29,7 @@ body {
     height: fit-content;
     max-width: 975px;
     overflow: auto;
+    margin-top: 100px;
     padding: 50px;
     position: relative;
     width: auto;
@@ -51,7 +52,7 @@ body {
 .header-title h1 {
     width: 100%;
     font-weight: 700;
-    font-size: 72px;
+    font-size: 75px;
     letter-spacing: -4px;
     line-height: 1.2em;
     text-align: center;
@@ -172,20 +173,42 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
-    border-radius: 100px;
+    border-radius: 10px;
+    border: 1.5px solid #FFF;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
     gap: 10px;
     height: min-content;
     overflow: hidden;
-    padding: 16px 24px;
+    padding: 14px 28px;
     position: relative;
     text-decoration: none;
     width: min-content;
     will-change: transform;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.generate-button:hover {
+    place-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: 1.5px solid #FFF;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 14px 28px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
 }
 
 .generate {
@@ -198,9 +221,9 @@ textarea {
 }
 
 .generate p {
-    color: rgb(255, 255, 255);
     margin: 0;
 }
+
 
 .loading {
     opacity: 0.7;
