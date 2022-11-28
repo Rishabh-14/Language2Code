@@ -6,10 +6,6 @@ export default function Document() {
       <Head>
         <meta property="og:title" content="English to Code" key="title"/>
         <meta property="og:description" content="build by Shelabh" key="description"/>
-        <meta
-          property="og:image"
-          content="https://cdn.buildspace.so/courses/gpt3-writer/project-og.jpg"
-        />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
       <body>
